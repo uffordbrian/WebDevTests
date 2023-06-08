@@ -46,6 +46,10 @@ th, td{
     width: 300px;
 }
 
+.DivFinancials{
+    margin-left: 20px
+}
+
 /* This is an attribute style selector. Value has to be explicitly set to 2 for this to work. */
 li[value="2"]{
     color: blue;
