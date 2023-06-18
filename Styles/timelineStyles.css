@@ -1,0 +1,41 @@
+.list-timeline {
+    margin: 0;
+    padding: 5px 0;
+    position: relative
+  }
+  
+  .list-timeline:before {
+    width: 1px;
+    background: #ccc;
+    position: absolute;
+    left: 6px;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    content: ''
+  }
+  
+  .list-timeline .list-timeline-item {
+    margin: 0;
+    padding: 0;
+    padding-left: 24px !important;
+    position: relative
+  }
+  
+  .list-timeline .list-timeline-item:before {
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    border: 2px solid #ccc;
+    position: absolute;
+    left: 0;
+    top: 4px;
+    content: '';
+    border-radius: 100%;
+    -webkit-transition: all .3 ease-in-out;
+    transition: all .3 ease-in-out
+  }
+  
+  .list-timeline .list-timeline-item[data-toggle=collapse] {
+    cursor: pointer
+  }

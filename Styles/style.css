@@ -1,5 +1,9 @@
 /* These are element style selectors */
 
+body{
+    background-color: rgb(227, 212, 204);
+}
+
 h1{
     font-family: 'Oxygen', sans-serif;
     text-align: center;
@@ -18,11 +22,7 @@ h4{
     color:darkslateblue;
 }
 
-a{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: bolder;
-    color: black;
-}
+
 
 table, th, td{
     border: 1px solid black;
