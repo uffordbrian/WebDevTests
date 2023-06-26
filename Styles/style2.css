@@ -45,3 +45,29 @@ p{
     color: red;
     text-align: left;
 }
+
+.red-flag-part{
+    background-color: rgb(219, 23, 23);
+    top: 25px;
+    left: 25px;
+    height: 300px;
+    width: 400px;
+}
+
+.blue-flag-part{
+    background-color: rgb(11, 11, 129);
+    position:relative;
+    top: 25%;
+    height: 50%;
+    width: 100%
+}
+
+.white-flag-part{
+    background-color: white;
+    position: relative;
+    top: 10%;
+    left: 35%;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+}
